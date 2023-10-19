@@ -1,0 +1,53 @@
+{
+  "pages": [
+    {
+      "id": "Slack Bot",
+      "isDefault": false
+    },
+    {
+      "id": "all-widgets-page",
+      "isDefault": true
+    },
+    {
+      "id": "Sheet1",
+      "isDefault": false
+    },
+    {
+      "id": "Sheet12",
+      "isDefault": false
+    },
+    {
+      "id": "crud-page",
+      "isDefault": false
+    },
+    {
+      "id": "PermissionGroup",
+      "isDefault": false
+    }
+  ],
+  "viewMode": false,
+  "appIsExample": false,
+  "unreadCommentThreads": 0,
+  "unpublishedApplicationDetail": {
+    "navigationSetting": {
+      "showNavbar": true,
+      "orientation": "side",
+      "navStyle": "sidebar",
+      "position": "static",
+      "itemStyle": "text",
+      "colorStyle": "theme",
+      "logoAssetId": "65317c40b6e25e2d375e2a99",
+      "logoConfiguration": "logoAndApplicationTitle",
+      "showSignIn": true
+    }
+  },
+  "color": "#FBF4ED",
+  "icon": "email",
+  "unpublishedCustomJSLibs": [],
+  "publishedCustomJSLibs": [],
+  "evaluationVersion": 2,
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "isManualUpdate": false,
+  "deleted": false
+}
