@@ -11,8 +11,8 @@
         "parent",
         "group"
     ],
-    "topRow": 0,
-    "bottomRow": 274.4,
+    "topRow": 12,
+    "bottomRow": 209,
     "parentRowSpace": 10,
     "type": "CONTAINER_WIDGET",
     "hideCard": false,
@@ -20,7 +20,7 @@
     "mobileRightColumn": 34,
     "animateLoading": true,
     "parentColumnSpace": 12.578125,
-    "leftColumn": 0,
+    "leftColumn": 8,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "boxShadow"}
@@ -31,21 +31,19 @@
         "widgetName": "Canvas1",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 2744,
+        "bottomRow": 1970,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": false,
         "hideCard": true,
-        "minHeight": 2740,
+        "minHeight": 100,
         "mobileRightColumn": 301.875,
-        "useAutoLayout": true,
         "parentColumnSpace": 1,
         "leftColumn": 0,
         "dynamicBindingPathList": [
             {"key": "borderRadius"},
             {"key": "boxShadow"}
         ],
-        "positioning": "vertical",
         "key": "89f44z00og",
         "isDeprecated": false,
         "rightColumn": 301.875,
@@ -65,98 +63,7 @@
         "mobileLeftColumn": 0,
         "maxDynamicHeight": 9000,
         "minDynamicHeight": 4,
-        "flexLayers": [
-            {"children": [
-                {
-                    "id": "70ba0nqhpu",
-                    "align": "start"
-                },
-                {
-                    "id": "lgnnuxrbbx",
-                    "align": "start"
-                }
-            ]},
-            {"children": [
-                {
-                    "id": "skl7i72vdu",
-                    "align": "center"
-                },
-                {
-                    "id": "zsqqcwyofd",
-                    "align": "center"
-                }
-            ]},
-            {"children": [{
-                "id": "s1qns9z7qq",
-                "align": "center"
-            }]},
-            {"children": [{
-                "id": "jogr0ci10o",
-                "align": "center"
-            }]},
-            {"children": [{
-                "id": "036uunqrm8",
-                "align": "center"
-            }]},
-            {"children": [{
-                "id": "h65c8x9h2t",
-                "align": "center"
-            }]},
-            {"children": [
-                {
-                    "id": "4bkmd9n0vm",
-                    "align": "start"
-                },
-                {
-                    "id": "b2g3od9o3m",
-                    "align": "end"
-                },
-                {
-                    "id": "d5iqehitug",
-                    "align": "end"
-                }
-            ]},
-            {"children": [
-                {
-                    "id": "hivfq0rij0",
-                    "align": "start"
-                },
-                {
-                    "id": "u4yy24zu33",
-                    "align": "end"
-                }
-            ]},
-            {"children": [
-                {
-                    "id": "wnozrp9tx8",
-                    "align": "start"
-                },
-                {
-                    "id": "775n3k1i4r",
-                    "align": "start"
-                },
-                {
-                    "id": "fti62346nf",
-                    "align": "start"
-                },
-                {
-                    "id": "m1znj4paub",
-                    "align": "start"
-                }
-            ]},
-            {"children": [{
-                "id": "79f0m4i6kd",
-                "align": "center"
-            }]},
-            {"children": [{
-                "id": "5ifzkmp6h9",
-                "align": "center"
-            }]},
-            {"children": [{
-                "id": "0yv3557pdg",
-                "align": "center"
-            }]}
-        ]
+        "flexLayers": []
     }],
     "borderWidth": "1",
     "flexVerticalAlignment": "stretch",
@@ -181,6 +88,5 @@
     "mobileLeftColumn": 10,
     "maxDynamicHeight": 9000,
     "originalBottomRow": 209,
-    "alignment": "end",
     "minDynamicHeight": 10
 }

@@ -8,8 +8,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 8.2,
-    "bottomRow": 12.2,
+    "topRow": 17,
+    "bottomRow": 55,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -18,7 +18,7 @@
     "overflow": "NONE",
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 2.220287322998047,
-    "leftColumn": 25.776337115072934,
+    "leftColumn": 60,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -29,9 +29,8 @@
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
     "text": "Hello {{appsmith.user.name || appsmith.user.email}}",
     "key": "sq0v5vub4x",
-    "flexVerticalAlignment": "end",
     "isDeprecated": false,
-    "rightColumn": 51.55267423014587,
+    "rightColumn": 62,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "wfmw61n6zx",
@@ -55,6 +54,5 @@
     "maxDynamicHeight": 9000,
     "originalBottomRow": 55,
     "fontSize": "1rem",
-    "alignment": "end",
     "minDynamicHeight": 4
 }

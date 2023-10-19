@@ -7,8 +7,8 @@
     "displayName": "Form",
     "iconSVG": "/static/media/icon.e17c486a34778f3bae299c9110e00cf6.svg",
     "searchTags": ["group"],
-    "topRow": 0,
-    "bottomRow": 77,
+    "topRow": 1,
+    "bottomRow": 79,
     "parentRowSpace": 10,
     "type": "FORM_WIDGET",
     "hideCard": false,
@@ -27,21 +27,19 @@
         "widgetName": "Canvas2",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 770,
+        "bottomRow": 780,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": false,
         "hideCard": true,
-        "minHeight": 1110,
+        "minHeight": 400,
         "mobileRightColumn": 127.972412109375,
-        "useAutoLayout": true,
         "parentColumnSpace": 1,
         "leftColumn": 0,
         "dynamicBindingPathList": [
             {"key": "borderRadius"},
             {"key": "boxShadow"}
         ],
-        "positioning": "vertical",
         "key": "89f44z00og",
         "isDeprecated": false,
         "rightColumn": 127.972412109375,
@@ -61,54 +59,7 @@
         "mobileLeftColumn": 0,
         "maxDynamicHeight": 9000,
         "minDynamicHeight": 4,
-        "flexLayers": [
-            {"children": [
-                {
-                    "id": "a2vjpo2yvw",
-                    "align": "start"
-                },
-                {
-                    "id": "gmthionxoz",
-                    "align": "start"
-                }
-            ]},
-            {"children": [
-                {
-                    "id": "xwrqvdbg1i",
-                    "align": "end"
-                },
-                {
-                    "id": "wfmw61n6zx",
-                    "align": "end"
-                },
-                {
-                    "id": "6nz3eg9ln9",
-                    "align": "end"
-                }
-            ]},
-            {"children": [
-                {
-                    "id": "xuc0ejnhd0",
-                    "align": "start"
-                },
-                {
-                    "id": "sjp062c0u9",
-                    "align": "center"
-                }
-            ]},
-            {"children": [{
-                "id": "lxknqnfiia",
-                "align": "end"
-            }]},
-            {"children": [{
-                "id": "2pdk6sajsw",
-                "align": "end"
-            }]},
-            {"children": [{
-                "id": "zv79gd3zle",
-                "align": "center"
-            }]}
-        ]
+        "flexLayers": []
     }],
     "borderWidth": "1",
     "positioning": "fixed",
@@ -116,7 +67,7 @@
     "key": "5pt87wywzw",
     "backgroundColor": "#FFFFFF",
     "isDeprecated": false,
-    "rightColumn": 32,
+    "rightColumn": 24,
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "70ba0nqhpu",
     "minWidth": 450,
@@ -132,6 +83,5 @@
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
     "originalBottomRow": 79,
-    "alignment": "start",
     "minDynamicHeight": 10
 }

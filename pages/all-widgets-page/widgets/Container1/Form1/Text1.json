@@ -8,15 +8,15 @@
         "paragraph",
         "label"
     ],
-    "topRow": 0,
-    "bottomRow": 4,
+    "topRow": 1,
+    "bottomRow": 5,
     "type": "TEXT_WIDGET",
     "hideCard": false,
     "mobileRightColumn": 25.5,
     "animateLoading": true,
     "overflow": "NONE",
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-    "leftColumn": 0,
+    "leftColumn": 1.5,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -26,9 +26,8 @@
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
     "text": "Form",
     "key": "sq0v5vub4x",
-    "flexVerticalAlignment": "end",
     "isDeprecated": false,
-    "rightColumn": 32,
+    "rightColumn": 25.5,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "a2vjpo2yvw",
@@ -52,6 +51,5 @@
     "maxDynamicHeight": 9000,
     "originalBottomRow": 7,
     "fontSize": "1.25rem",
-    "alignment": "start",
     "minDynamicHeight": 4
 }

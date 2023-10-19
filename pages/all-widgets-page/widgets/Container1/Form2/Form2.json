@@ -7,8 +7,8 @@
     "displayName": "Form",
     "iconSVG": "/static/media/icon.e17c486a34778f3bae299c9110e00cf6.svg",
     "searchTags": ["group"],
-    "topRow": 163.40000000000003,
-    "bottomRow": 212.60000000000002,
+    "topRow": 87,
+    "bottomRow": 154,
     "parentRowSpace": 10,
     "type": "FORM_WIDGET",
     "hideCard": false,
@@ -16,7 +16,7 @@
     "mobileRightColumn": 29,
     "animateLoading": true,
     "parentColumnSpace": 10.693359375,
-    "leftColumn": 0,
+    "leftColumn": 5,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "boxShadow"}
@@ -27,21 +27,19 @@
         "widgetName": "Canvas5",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 492,
+        "bottomRow": 670,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": false,
         "hideCard": true,
-        "minHeight": 480,
+        "minHeight": 400,
         "mobileRightColumn": 256.640625,
-        "useAutoLayout": true,
         "parentColumnSpace": 1,
         "leftColumn": 0,
         "dynamicBindingPathList": [
             {"key": "borderRadius"},
             {"key": "boxShadow"}
         ],
-        "positioning": "vertical",
         "key": "89f44z00og",
         "isDeprecated": false,
         "rightColumn": 256.640625,
@@ -61,26 +59,7 @@
         "mobileLeftColumn": 0,
         "maxDynamicHeight": 9000,
         "minDynamicHeight": 4,
-        "flexLayers": [
-            {"children": [{
-                "id": "g1nbrr5k1g",
-                "align": "start"
-            }]},
-            {"children": [
-                {
-                    "id": "b0y66nror6",
-                    "align": "end"
-                },
-                {
-                    "id": "ngn2hsi9ii",
-                    "align": "end"
-                },
-                {
-                    "id": "o95129yt58",
-                    "align": "end"
-                }
-            ]}
-        ]
+        "flexLayers": []
     }],
     "borderWidth": "1",
     "positioning": "fixed",
@@ -88,7 +67,7 @@
     "key": "5pt87wywzw",
     "backgroundColor": "#FFFFFF",
     "isDeprecated": false,
-    "rightColumn": 32,
+    "rightColumn": 29,
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "hivfq0rij0",
     "minWidth": 450,
@@ -104,6 +83,5 @@
     "mobileLeftColumn": 5,
     "maxDynamicHeight": 9000,
     "originalBottomRow": 154,
-    "alignment": "start",
     "minDynamicHeight": 10
 }

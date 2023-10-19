@@ -1,13 +1,11 @@
 {
-    "mobileWidthInPercentage": 0,
     "boxShadow": "none",
     "widgetName": "Modal1",
-    "widthInPercentage": 0,
     "isCanvas": true,
     "displayName": "Modal",
     "iconSVG": "/static/media/icon.4975978e.svg",
-    "topRow": 78.60000000000001,
-    "bottomRow": 165,
+    "topRow": 0,
+    "bottomRow": 0,
     "parentRowSpace": 1,
     "type": "MODAL_WIDGET",
     "hideCard": false,
@@ -15,25 +13,23 @@
     "animateLoading": true,
     "parentColumnSpace": 1,
     "dynamicTriggerPathList": [],
-    "leftColumn": 32,
+    "leftColumn": 0,
     "dynamicBindingPathList": [],
     "children": [{
         "boxShadow": "none",
         "widgetName": "Canvas2",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 864,
+        "bottomRow": 950,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": true,
         "hideCard": true,
         "shouldScrollContents": false,
-        "minHeight": 910,
-        "useAutoLayout": true,
+        "minHeight": 952,
         "parentColumnSpace": 1,
         "leftColumn": 0,
         "dynamicBindingPathList": [],
-        "positioning": "vertical",
         "isDisabled": false,
         "key": "1cg5lzl8uy",
         "labelTextSize": "0.875rem",
@@ -45,29 +41,14 @@
         "parentId": "318q7nz2wp",
         "renderMode": "CANVAS",
         "isLoading": false,
-        "responsiveBehavior": "fill",
-        "borderRadius": "0px",
-        "flexLayers": [
-            {"children": [{
-                "id": "mf94vxfjj0",
-                "align": "center"
-            }]},
-            {"children": [{
-                "id": "k8525f1wke",
-                "align": "center"
-            }]},
-            {"children": [{
-                "id": "lkz8ym27kj",
-                "align": "center"
-            }]}
-        ]
+        "borderRadius": "0px"
     }],
     "key": "5yt8y7lz53",
-    "height": 866,
+    "height": 952,
     "labelTextSize": "0.875rem",
-    "rightColumn": 32,
+    "rightColumn": 0,
     "detachFromLayout": true,
-    "dynamicHeight": "AUTO_HEIGHT",
+    "dynamicHeight": "FIXED",
     "widgetId": "318q7nz2wp",
     "canOutsideClickClose": true,
     "canEscapeKeyClose": true,
@@ -75,9 +56,8 @@
     "parentId": "0",
     "renderMode": "CANVAS",
     "isLoading": false,
-    "responsiveBehavior": "hug",
     "borderRadius": "0px",
     "maxDynamicHeight": 9000,
     "width": 938,
-    "minDynamicHeight": 8
+    "minDynamicHeight": 4
 }

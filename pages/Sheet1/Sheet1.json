@@ -7,57 +7,24 @@
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
-          "topRow": 0,
-          "bottomRow": 1740,
-          "parentRowSpace": 1,
-          "type": "CANVAS_WIDGET",
-          "canExtend": true,
-          "minHeight": 890,
-          "useAutoLayout": true,
-          "parentColumnSpace": 1,
-          "dynamicTriggerPathList": [],
-          "dynamicBindingPathList": [],
-          "leftColumn": 0,
-          "positioning": "vertical",
           "backgroundColor": "none",
           "rightColumn": 1174,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 870,
           "containerStyle": "none",
           "snapRows": 125,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
           "version": 87,
-          "responsiveBehavior": "fill",
-          "flexLayers": [
-            {
-              "children": [
-                {
-                  "id": "mvubsemxfo",
-                  "align": "start"
-                },
-                {
-                  "id": "tn9ri7ylp2",
-                  "align": "start"
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "id": "i3whp03wf0",
-                  "align": "center"
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "id": "vmorzie6eq",
-                  "align": "center"
-                }
-              ]
-            }
-          ]
+          "minHeight": 890,
+          "parentColumnSpace": 1,
+          "dynamicTriggerPathList": [],
+          "dynamicBindingPathList": [],
+          "leftColumn": 0
         },
         "layoutOnLoadActions": [
           [
@@ -67,8 +34,8 @@
               "confirmBeforeExecute": false,
               "pluginType": "SAAS",
               "jsonPathKeys": [
-                "(data_table.pageNo - 1) * data_table.pageSize",
-                "data_table.pageSize"
+                "data_table.pageSize",
+                "(data_table.pageNo - 1) * data_table.pageSize"
               ],
               "timeoutInMillisecond": 10000
             }

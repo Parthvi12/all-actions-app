@@ -4,7 +4,7 @@
     "isCanvas": true,
     "templateHeight": 160,
     "iconSVG": "/static/media/icon.5c9511142b3624c7491c5442e8ccd0ef.svg",
-    "topRow": 0,
+    "topRow": 2,
     "pageSize": 3,
     "type": "LIST_WIDGET_V2",
     "itemSpacing": 8,
@@ -18,7 +18,7 @@
         {"key": "borderRadius"},
         {"key": "boxShadow"}
     ],
-    "leftColumn": 0,
+    "leftColumn": 23,
     "enhancements": true,
     "children": [{
         "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
@@ -42,7 +42,6 @@
             {"key": "borderRadius"},
             {"key": "boxShadow"}
         ],
-        "positioning": "vertical",
         "key": "765cs0l8g4",
         "isDeprecated": false,
         "rightColumn": 105.703125,
@@ -62,10 +61,7 @@
         "mobileLeftColumn": 0,
         "maxDynamicHeight": 9000,
         "minDynamicHeight": 4,
-        "flexLayers": [{"children": [{
-            "id": "i52ujsqz6u",
-            "align": "center"
-        }]}]
+        "flexLayers": []
     }],
     "flexVerticalAlignment": "start",
     "itemBackgroundColor": "#FFFFFF",
@@ -85,7 +81,6 @@
         "prefixMetaWidgetId",
         "metaWidgetId"
     ],
-    "alignment": "end",
     "mobileBottomRow": 42,
     "currentItemsView": "{{[]}}",
     "triggeredItemView": "{{{}}}",
@@ -108,7 +103,7 @@
         }
     ],
     "displayName": "List",
-    "bottomRow": 40,
+    "bottomRow": 42,
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 47,
@@ -119,7 +114,7 @@
     "key": "6uqqy19g1g",
     "backgroundColor": "transparent",
     "isDeprecated": false,
-    "rightColumn": 32,
+    "rightColumn": 47,
     "widgetId": "6bsb6mn3ob",
     "minWidth": 450,
     "parentId": "wgj8cjzpcw",

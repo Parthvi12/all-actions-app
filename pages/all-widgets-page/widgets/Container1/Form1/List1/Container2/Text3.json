@@ -25,16 +25,15 @@
         {"key": "borderRadius"},
         {"key": "text"}
     ],
-    "leftColumn": 40.84330484330484,
+    "leftColumn": 16,
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
     "text": "{{currentItem.name}}",
     "key": "sq0v5vub4x",
-    "flexVerticalAlignment": "end",
     "isDeprecated": false,
-    "rightColumn": 64,
+    "rightColumn": 28,
     "textAlign": "LEFT",
-    "dynamicHeight": "AUTO_HEIGHT",
+    "dynamicHeight": "FIXED",
     "widgetId": "4rachu5ux1",
     "minWidth": 450,
     "isVisible": true,
@@ -55,6 +54,5 @@
     "maxDynamicHeight": 9000,
     "fontSize": "1rem",
     "textStyle": "HEADING",
-    "alignment": "start",
     "minDynamicHeight": 4
 }

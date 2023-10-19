@@ -315,15 +315,15 @@
         {"key": "schema.__root_schema__.children.col4.defaultValue"},
         {"key": "onSubmit"}
     ],
+    "displayName": "JSON Form",
     "iconSVG": "/static/media/icon.6bacf7df.svg",
     "onSubmit": "{{InsertQuery.run(\n\t() => SelectQuery.run()\n\t\t\t\t\t.then(() => closeModal('Insert_Modal')), \n\t(error) => showAlert(`Error while inserting resource!\\n ${error}`,'error'))\n}}",
-    "displayName": "JSON Form",
     "topRow": 0,
     "bottomRow": 81,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
-    "type": "JSON_FORM_WIDGET",
     "title": "Insert Row",
+    "type": "JSON_FORM_WIDGET",
     "hideCard": false,
     "animateLoading": true,
     "parentColumnSpace": 8.125,
@@ -378,7 +378,6 @@
     "sourceData": "{{_.omit(data_table.tableData[0], \"customColumn1\", \"__primaryKey__\")}}",
     "showReset": true,
     "resetButtonLabel": "Reset",
-    "flexVerticalAlignment": "start",
     "key": "h9l9ozr8op",
     "labelTextSize": "0.875rem",
     "backgroundColor": "#fff",
@@ -392,13 +391,13 @@
         "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
         "buttonVariant": "SECONDARY"
     },
-    "minWidth": 450,
     "isVisible": "true",
     "version": 1,
     "parentId": "9rhv3ioohq",
-    "isLoading": false,
     "renderMode": "CANVAS",
+    "isLoading": false,
     "scrollContents": true,
+    "fixedFooter": true,
     "submitButtonLabel": "Submit",
     "childStylesheet": {
         "CHECKBOX": {
@@ -477,11 +476,8 @@
             "accentColor": "{{appsmith.theme.colors.primaryColor}}"
         }
     },
-    "fixedFooter": true,
-    "responsiveBehavior": "fill",
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "maxDynamicHeight": 9000,
-    "alignment": "start",
     "minDynamicHeight": 4
 }

@@ -10,8 +10,8 @@
     }],
     "displayName": "Map",
     "iconSVG": "/static/media/icon.5d50414980b866c69864af79042fa1f9.svg",
-    "topRow": 213.8,
-    "bottomRow": 253.8,
+    "topRow": 155,
+    "bottomRow": 195,
     "parentRowSpace": 10,
     "type": "MAP_WIDGET",
     "hideCard": false,
@@ -35,7 +35,7 @@
     "flexVerticalAlignment": "start",
     "key": "59hrbxk9bv",
     "isDeprecated": false,
-    "rightColumn": 14.854864433811802,
+    "rightColumn": 12,
     "widgetId": "wnozrp9tx8",
     "minWidth": 450,
     "isVisible": true,
@@ -49,6 +49,5 @@
     "originalTopRow": 155,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
-    "originalBottomRow": 195,
-    "alignment": "start"
+    "originalBottomRow": 195
 }

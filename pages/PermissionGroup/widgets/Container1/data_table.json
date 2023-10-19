@@ -1,7 +1,7 @@
 {
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-    "onSort": "{{FindQuery.run()}}",
     "widgetName": "data_table",
+    "onSort": "{{FindQuery.run()}}",
     "columnOrder": [
         "defaultWorkspaceId",
         "deleted",
@@ -16,16 +16,16 @@
         "assignedToGroupIds",
         "customColumn1"
     ],
-    "isVisibleDownload": true,
     "dynamicPropertyPathList": [
         {"key": "onPageChange"},
         {"key": "primaryColumns.customColumn1.borderRadius"}
     ],
-    "topRow": 5.2,
-    "bottomRow": 84.2,
+    "isVisibleDownload": true,
+    "topRow": 7,
+    "bottomRow": 86,
+    "parentRowSpace": 10,
     "onPageChange": "{{FindQuery.run()}}",
     "isSortable": true,
-    "parentRowSpace": 10,
     "type": "TABLE_WIDGET",
     "defaultSelectedRow": "0",
     "animateLoading": true,
@@ -62,8 +62,7 @@
         {"key": "primaryColumns._class.computedValue"},
         {"key": "primaryColumns.assignedToGroupIds.computedValue"}
     ],
-    "leftColumn": 0,
-    "delimiter": ",",
+    "leftColumn": 1,
     "primaryColumns": {
         "appsmith_mongo_escape_id": {
             "isCellVisible": true,
@@ -298,7 +297,7 @@
             "verticalAlignment": "CENTER"
         }
     },
-    "flexVerticalAlignment": "end",
+    "delimiter": ",",
     "derivedColumns": {"customColumn1": {
         "boxShadow": "{{data_table.sanitizedTableData.map((currentRow) => ( \"none\"))}}",
         "isDerived": true,
@@ -324,8 +323,8 @@
     "labelTextSize": "0.875rem",
     "rightColumn": 64,
     "textSize": "0.875rem",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "widgetId": "m04j9ji345",
+    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "isVisibleFilters": true,
     "tableData": "{{FindQuery.data}}",
     "isVisible": "true",
@@ -356,17 +355,15 @@
             "menuColor": "{{appsmith.theme.colors.primaryColor}}"
         }
     },
-    "responsiveBehavior": "fill",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "isVisiblePagination": true,
     "primaryColumnId": "_id",
-    "alignment": "end",
+    "verticalAlignment": "CENTER",
     "columnSizeMap": {
         "task": 245,
         "deliveryAddress": 170,
         "step": 62,
         "id": 228,
         "status": 75
-    },
-    "verticalAlignment": "CENTER"
+    }
 }

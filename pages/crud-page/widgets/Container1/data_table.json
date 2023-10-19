@@ -3,7 +3,7 @@
     "onSort": "{{SelectQuery.run()}}",
     "isVisibleDownload": true,
     "iconSVG": "/static/media/icon.db8a9cbd.svg",
-    "topRow": 5.2,
+    "topRow": 6,
     "isSortable": true,
     "onPageChange": "{{SelectQuery.run()}}",
     "type": "TABLE_WIDGET",
@@ -23,7 +23,6 @@
     ],
     "leftColumn": 0,
     "delimiter": ",",
-    "flexVerticalAlignment": "end",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "isVisibleFilters": true,
     "isVisible": "true",
@@ -51,7 +50,6 @@
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "primaryColumnId": "id",
-    "alignment": "start",
     "columnSizeMap": {
         "task": 245,
         "step": 62,
@@ -68,7 +66,7 @@
     ],
     "dynamicPropertyPathList": [{"key": "primaryColumns.customColumn1.borderRadius"}],
     "displayName": "Table",
-    "bottomRow": 84.2,
+    "bottomRow": 85,
     "parentRowSpace": 10,
     "defaultSelectedRow": "0",
     "hideCard": false,
@@ -216,7 +214,6 @@
     "renderMode": "CANVAS",
     "horizontalAlignment": "LEFT",
     "isVisibleSearch": true,
-    "responsiveBehavior": "fill",
     "isVisiblePagination": true,
     "verticalAlignment": "CENTER"
 }

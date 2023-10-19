@@ -10,13 +10,13 @@
         "click",
         "submit"
     ],
-    "topRow": 16.4,
-    "bottomRow": 20.4,
+    "topRow": 55,
+    "bottomRow": 59,
     "type": "BUTTON_WIDGET",
     "hideCard": false,
     "mobileRightColumn": 46,
     "animateLoading": true,
-    "leftColumn": 48,
+    "leftColumn": 30,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
@@ -24,9 +24,8 @@
     "text": "Reset",
     "isDisabled": false,
     "key": "bs4nr0zwu5",
-    "flexVerticalAlignment": "end",
     "isDeprecated": false,
-    "rightColumn": 64,
+    "rightColumn": 46,
     "isDefaultClickDisabled": true,
     "widgetId": "sjp062c0u9",
     "minWidth": 120,
@@ -45,6 +44,5 @@
     "mobileLeftColumn": 30,
     "originalBottomRow": 59,
     "buttonVariant": "SECONDARY",
-    "placement": "CENTER",
-    "alignment": "center"
+    "placement": "CENTER"
 }

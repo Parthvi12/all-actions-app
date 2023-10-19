@@ -5,7 +5,7 @@
     "topRow": 0,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
-    "leftColumn": 32,
+    "leftColumn": 24,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "boxShadow"},
@@ -113,7 +113,6 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "originalBottomRow": 39,
     "useSourceData": false,
-    "alignment": "start",
     "schema": {},
     "mobileBottomRow": 46,
     "widgetName": "JSONForm1",

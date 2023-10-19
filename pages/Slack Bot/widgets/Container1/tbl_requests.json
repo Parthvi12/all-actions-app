@@ -18,8 +18,8 @@
     "isVisibleDownload": false,
     "dynamicPropertyPathList": [],
     "compactMode": "DEFAULT",
-    "topRow": 5.2,
-    "bottomRow": 57.2,
+    "topRow": 7,
+    "bottomRow": 59,
     "parentRowSpace": 10,
     "isSortable": true,
     "type": "TABLE_WIDGET",
@@ -43,7 +43,7 @@
         {"key": "primaryColumns.id.computedValue"},
         {"key": "accentColor"}
     ],
-    "leftColumn": 0,
+    "leftColumn": 1,
     "primaryColumns": {
         "createdAt": {
             "isCellVisible": true,
@@ -275,10 +275,9 @@
         }
     },
     "delimiter": ",",
-    "flexVerticalAlignment": "end",
     "derivedColumns": {},
     "labelTextSize": "0.875rem",
-    "rightColumn": 64,
+    "rightColumn": 63,
     "textSize": "0.875rem",
     "widgetId": "jixumq9qcm",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -310,10 +309,8 @@
             "menuColor": "{{appsmith.theme.colors.primaryColor}}"
         }
     },
-    "responsiveBehavior": "fill",
     "borderRadius": "0px",
     "isVisiblePagination": true,
-    "alignment": "center",
     "verticalAlignment": "CENTER",
     "columnSizeMap": {
         "Email": 60,
