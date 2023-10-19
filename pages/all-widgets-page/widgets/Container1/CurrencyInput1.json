@@ -7,7 +7,7 @@
     "type": "CURRENCY_INPUT_WIDGET",
     "animateLoading": true,
     "resetOnSubmit": true,
-    "leftColumn": 19,
+    "leftColumn": 24,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"}
@@ -24,6 +24,7 @@
     "tags": ["Inputs"],
     "isLoading": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "originalBottomRow": 43,
     "mobileBottomRow": 57,
     "widgetName": "CurrencyInput1",
     "displayName": "Currency Input",
@@ -41,7 +42,7 @@
     "key": "cb1gmfw630",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
-    "rightColumn": 31,
+    "rightColumn": 36,
     "widgetId": "skl7i72vdu",
     "minWidth": 450,
     "label": "Label",
@@ -50,6 +51,7 @@
     "renderMode": "CANVAS",
     "mobileTopRow": 50,
     "responsiveBehavior": "fill",
+    "originalTopRow": 39,
     "mobileLeftColumn": 19,
     "maxDynamicHeight": 9000,
     "decimals": 0,

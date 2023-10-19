@@ -18,7 +18,7 @@
     "mobileRightColumn": 42,
     "animateLoading": true,
     "parentColumnSpace": 10.693359375,
-    "leftColumn": 12,
+    "leftColumn": 24,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "boxShadow"}
@@ -30,7 +30,7 @@
     "key": "c11x3ta2dk",
     "isRequired": false,
     "isDeprecated": false,
-    "rightColumn": 35,
+    "rightColumn": 47,
     "isDefaultClickDisabled": true,
     "dynamicHeight": "FIXED",
     "widgetId": "jogr0ci10o",
@@ -44,9 +44,11 @@
     "isLoading": false,
     "mobileTopRow": 59,
     "responsiveBehavior": "fill",
+    "originalTopRow": 47,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 19,
     "maxDynamicHeight": 9000,
+    "originalBottomRow": 61,
     "defaultText": "This is the initial <b>content<\/b> of the editor",
     "minDynamicHeight": 4
 }

@@ -58,9 +58,11 @@
     "renderMode": "CANVAS",
     "isLoading": false,
     "mobileTopRow": 65,
+    "originalTopRow": 65,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 41,
     "menuItemsSource": "STATIC",
     "menuColor": "{{appsmith.theme.colors.primaryColor}}",
+    "originalBottomRow": 69,
     "placement": "CENTER"
 }

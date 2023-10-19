@@ -28,6 +28,8 @@
     "isLoading": false,
     "mobileTopRow": 120,
     "responsiveBehavior": "fill",
+    "originalTopRow": 120,
     "mobileLeftColumn": 30,
+    "originalBottomRow": 160,
     "docUrl": "https://www.learningcontainer.com/wp-content/uploads/2019/09/sample-pdf-file.pdf"
 }

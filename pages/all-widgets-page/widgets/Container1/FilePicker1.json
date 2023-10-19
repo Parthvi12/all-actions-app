@@ -15,7 +15,7 @@
     "mobileRightColumn": 49,
     "animateLoading": true,
     "parentColumnSpace": 10.693359375,
-    "leftColumn": 33,
+    "leftColumn": 36,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
@@ -24,7 +24,7 @@
     "key": "8ym2sr2249",
     "isRequired": false,
     "isDeprecated": false,
-    "rightColumn": 49,
+    "rightColumn": 52,
     "isDefaultClickDisabled": true,
     "widgetId": "zsqqcwyofd",
     "minWidth": 120,
@@ -41,8 +41,10 @@
     "isLoading": false,
     "mobileTopRow": 45,
     "responsiveBehavior": "hug",
+    "originalTopRow": 39,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 33,
+    "originalBottomRow": 43,
     "files": [],
     "maxNumFiles": 1
 }
