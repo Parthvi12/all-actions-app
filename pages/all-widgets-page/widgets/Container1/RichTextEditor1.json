@@ -9,8 +9,8 @@
         "input",
         "rte"
     ],
-    "topRow": 47,
-    "bottomRow": 61,
+    "topRow": 88.60000000000001,
+    "bottomRow": 118.60000000000002,
     "parentRowSpace": 10,
     "labelWidth": 5,
     "type": "RICH_TEXT_EDITOR_WIDGET",
@@ -18,7 +18,7 @@
     "mobileRightColumn": 42,
     "animateLoading": true,
     "parentColumnSpace": 10.693359375,
-    "leftColumn": 24,
+    "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "boxShadow"}
@@ -30,7 +30,7 @@
     "key": "c11x3ta2dk",
     "isRequired": false,
     "isDeprecated": false,
-    "rightColumn": 47,
+    "rightColumn": 64,
     "isDefaultClickDisabled": true,
     "dynamicHeight": "FIXED",
     "widgetId": "jogr0ci10o",
@@ -50,5 +50,6 @@
     "maxDynamicHeight": 9000,
     "originalBottomRow": 61,
     "defaultText": "This is the initial <b>content<\/b> of the editor",
+    "alignment": "center",
     "minDynamicHeight": 4
 }

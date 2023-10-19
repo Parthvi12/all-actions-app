@@ -1,7 +1,9 @@
 {
+    "mobileWidthInPercentage": 0.0564453125,
     "boxShadow": "none",
     "mobileBottomRow": 8,
     "widgetName": "Image3",
+    "widthInPercentage": 0.0564453125,
     "displayName": "Image",
     "iconSVG": "/static/media/icon.69b0f0dd810281fbd6e34fc2c3f39344.svg",
     "topRow": 0,
@@ -22,7 +24,7 @@
     "key": "yo9kndaajv",
     "image": "{{currentItem.img}}",
     "isDeprecated": false,
-    "rightColumn": 16,
+    "rightColumn": 62.00692041522491,
     "objectFit": "cover",
     "widgetId": "dgutd0bz37",
     "isVisible": true,
@@ -34,7 +36,9 @@
     "mobileTopRow": 0,
     "maxZoomLevel": 1,
     "enableDownload": false,
+    "responsiveBehavior": "hug",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
-    "enableRotation": false
+    "enableRotation": false,
+    "alignment": "start"
 }

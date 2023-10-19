@@ -5,15 +5,15 @@
     "displayName": "Document Viewer",
     "iconSVG": "/static/media/icon.9a94cf630fee10d87605f8b185b2e979.svg",
     "searchTags": ["pdf"],
-    "topRow": 120,
-    "bottomRow": 160,
+    "topRow": 163.40000000000003,
+    "bottomRow": 203.40000000000003,
     "parentRowSpace": 10,
     "type": "DOCUMENT_VIEWER_WIDGET",
     "hideCard": false,
     "mobileRightColumn": 54,
     "animateLoading": true,
     "parentColumnSpace": 10.693359375,
-    "leftColumn": 47,
+    "leftColumn": 32,
     "dynamicBindingPathList": [],
     "flexVerticalAlignment": "start",
     "key": "zjgqzhymxq",
@@ -31,5 +31,6 @@
     "originalTopRow": 120,
     "mobileLeftColumn": 30,
     "originalBottomRow": 160,
-    "docUrl": "https://www.learningcontainer.com/wp-content/uploads/2019/09/sample-pdf-file.pdf"
+    "docUrl": "https://www.learningcontainer.com/wp-content/uploads/2019/09/sample-pdf-file.pdf",
+    "alignment": "end"
 }

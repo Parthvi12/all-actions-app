@@ -3,7 +3,7 @@
     "onSort": "",
     "isVisibleDownload": true,
     "iconSVG": "/static/media/icon.db8a9cbd.svg",
-    "topRow": 6,
+    "topRow": 5.2,
     "isSortable": true,
     "onPageChange": "{{SelectQuery.run()}}",
     "type": "TABLE_WIDGET",
@@ -29,8 +29,9 @@
         {"key": "primaryColumns.col11.computedValue"},
         {"key": "primaryColumns.col12.computedValue"}
     ],
-    "leftColumn": 1,
+    "leftColumn": 0,
     "delimiter": ",",
+    "flexVerticalAlignment": "end",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "isVisibleFilters": true,
     "isVisible": "true",
@@ -58,6 +59,7 @@
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "primaryColumnId": "id",
+    "alignment": "center",
     "columnSizeMap": {
         "task": 245,
         "step": 62,
@@ -82,7 +84,7 @@
     ],
     "dynamicPropertyPathList": [{"key": "primaryColumns.customColumn1.borderRadius"}],
     "displayName": "Table",
-    "bottomRow": 85,
+    "bottomRow": 84.2,
     "parentRowSpace": 10,
     "defaultSelectedRow": "0",
     "hideCard": false,
@@ -371,7 +373,7 @@
         "buttonLabelColor": "#FFFFFF"
     }},
     "labelTextSize": "0.875rem",
-    "rightColumn": 63,
+    "rightColumn": 64,
     "textSize": "0.875rem",
     "widgetId": "icx7cf3936",
     "tableData": "{{SelectQuery.data}}",
@@ -382,6 +384,7 @@
     "renderMode": "CANVAS",
     "horizontalAlignment": "LEFT",
     "isVisibleSearch": true,
+    "responsiveBehavior": "fill",
     "isVisiblePagination": true,
     "verticalAlignment": "CENTER"
 }

@@ -4,7 +4,7 @@
     "isCanvas": true,
     "templateHeight": 160,
     "iconSVG": "/static/media/icon.5c9511142b3624c7491c5442e8ccd0ef.svg",
-    "topRow": 29,
+    "topRow": 16.4,
     "pageSize": 3,
     "type": "LIST_WIDGET_V2",
     "itemSpacing": 8,
@@ -42,6 +42,7 @@
             {"key": "borderRadius"},
             {"key": "boxShadow"}
         ],
+        "positioning": "vertical",
         "key": "89f44z00og",
         "isDeprecated": false,
         "rightColumn": 51.06660842895508,
@@ -61,7 +62,10 @@
         "mobileLeftColumn": 0,
         "maxDynamicHeight": 9000,
         "minDynamicHeight": 4,
-        "flexLayers": []
+        "flexLayers": [{"children": [{
+            "id": "v4a5y7agdu",
+            "align": "center"
+        }]}]
     }],
     "flexVerticalAlignment": "start",
     "itemBackgroundColor": "#FFFFFF",
@@ -82,6 +86,7 @@
         "prefixMetaWidgetId",
         "metaWidgetId"
     ],
+    "alignment": "start",
     "mobileBottomRow": 69,
     "currentItemsView": "{{[]}}",
     "triggeredItemView": "{{{}}}",
@@ -104,7 +109,7 @@
         }
     ],
     "displayName": "List",
-    "bottomRow": 69,
+    "bottomRow": 56.4,
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 23,
@@ -115,7 +120,7 @@
     "key": "l8lloxvjjz",
     "backgroundColor": "transparent",
     "isDeprecated": false,
-    "rightColumn": 23,
+    "rightColumn": 48,
     "widgetId": "xuc0ejnhd0",
     "minWidth": 450,
     "parentId": "yqm9qa6fwl",

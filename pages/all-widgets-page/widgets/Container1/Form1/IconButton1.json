@@ -9,23 +9,24 @@
         "click",
         "submit"
     ],
-    "topRow": 59,
-    "bottomRow": 63,
+    "topRow": 57.6,
+    "bottomRow": 61.6,
     "parentRowSpace": 10,
     "type": "ICON_BUTTON_WIDGET",
     "hideCard": false,
     "mobileRightColumn": 57,
     "animateLoading": true,
     "parentColumnSpace": 1.6925048828125,
-    "leftColumn": 53,
+    "leftColumn": 59.850891410048625,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
     ],
     "isDisabled": false,
     "key": "rzmkg5fjne",
+    "flexVerticalAlignment": "end",
     "isDeprecated": false,
-    "rightColumn": 57,
+    "rightColumn": 64,
     "iconName": "plus",
     "widgetId": "lxknqnfiia",
     "minWidth": 50,
@@ -41,5 +42,6 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 53,
     "originalBottomRow": 63,
-    "buttonVariant": "PRIMARY"
+    "buttonVariant": "PRIMARY",
+    "alignment": "end"
 }

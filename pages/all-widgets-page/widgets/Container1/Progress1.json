@@ -6,8 +6,8 @@
     "displayName": "Progress",
     "iconSVG": "/static/media/icon.d957681553199f5445fe4fb3038b7a64.svg",
     "searchTags": ["percent"],
-    "topRow": 175,
-    "bottomRow": 179,
+    "topRow": 263.2,
+    "bottomRow": 267.2,
     "parentRowSpace": 10,
     "type": "PROGRESS_WIDGET",
     "isIndeterminate": false,
@@ -15,15 +15,16 @@
     "fillColor": "{{appsmith.theme.colors.primaryColor}}",
     "mobileRightColumn": 15,
     "parentColumnSpace": 10.693359375,
-    "leftColumn": 12,
+    "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "fillColor"},
         {"key": "borderRadius"}
     ],
     "key": "1t0a15g5ga",
+    "flexVerticalAlignment": "end",
     "showResult": false,
     "isDeprecated": false,
-    "rightColumn": 27,
+    "rightColumn": 64,
     "counterClosewise": false,
     "widgetId": "5ifzkmp6h9",
     "isVisible": true,
@@ -39,5 +40,6 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
     "originalBottomRow": 179,
-    "progress": 50
+    "progress": 50,
+    "alignment": "center"
 }

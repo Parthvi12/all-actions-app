@@ -4,8 +4,8 @@
     "isCanvas": true,
     "displayName": "Tabs",
     "iconSVG": "/static/media/icon.74a6d653.svg",
-    "topRow": 14,
-    "bottomRow": 90,
+    "topRow": 10.4,
+    "bottomRow": 84.4,
     "parentRowSpace": 10,
     "type": "TABS_WIDGET",
     "hideCard": false,
@@ -13,7 +13,7 @@
     "animateLoading": true,
     "parentColumnSpace": 17.03125,
     "dynamicTriggerPathList": [],
-    "leftColumn": 2,
+    "leftColumn": 0,
     "dynamicBindingPathList": [{"key": "accentColor"}],
     "children": [
         {
@@ -22,17 +22,19 @@
             "widgetName": "Canvas3",
             "displayName": "Canvas",
             "topRow": 0,
-            "bottomRow": 720,
+            "bottomRow": 700,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
             "canExtend": true,
             "hideCard": true,
             "shouldScrollContents": false,
-            "minHeight": 400,
+            "minHeight": 700,
+            "useAutoLayout": true,
             "parentColumnSpace": 1,
             "dynamicTriggerPathList": [],
             "leftColumn": 0,
             "dynamicBindingPathList": [],
+            "positioning": "vertical",
             "isDisabled": false,
             "key": "xod0nk6vgk",
             "labelTextSize": "0.875rem",
@@ -45,7 +47,12 @@
             "parentId": "lkz8ym27kj",
             "renderMode": "CANVAS",
             "isLoading": false,
-            "borderRadius": "0px"
+            "responsiveBehavior": "fill",
+            "borderRadius": "0px",
+            "flexLayers": [{"children": [{
+                "id": "9bt779lxfg",
+                "align": "start"
+            }]}]
         },
         {
             "tabId": "tab1cy4y1o4ix",
@@ -53,16 +60,18 @@
             "widgetName": "Canvas5",
             "displayName": "Canvas",
             "topRow": 1,
-            "bottomRow": 720,
+            "bottomRow": 581.0000000000001,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
             "canExtend": false,
             "hideCard": true,
-            "minHeight": 600,
+            "minHeight": 560,
+            "useAutoLayout": true,
             "parentColumnSpace": 1,
             "dynamicTriggerPathList": [],
             "leftColumn": 0,
             "dynamicBindingPathList": [],
+            "positioning": "vertical",
             "key": "xod0nk6vgk",
             "labelTextSize": "0.875rem",
             "tabName": "Help & Resources",
@@ -75,13 +84,47 @@
             "parentId": "lkz8ym27kj",
             "renderMode": "CANVAS",
             "isLoading": false,
-            "borderRadius": "0px"
+            "responsiveBehavior": "fill",
+            "borderRadius": "0px",
+            "flexLayers": [
+                {"children": [
+                    {
+                        "id": "xp477t6hpn",
+                        "align": "start"
+                    },
+                    {
+                        "id": "p0c1bvm633",
+                        "align": "end"
+                    }
+                ]},
+                {"children": [{
+                    "id": "4kr9exw8hp",
+                    "align": "start"
+                }]},
+                {"children": [{
+                    "id": "mc9iol5mhn",
+                    "align": "start"
+                }]},
+                {"children": [{
+                    "id": "zi6sg0xpxe",
+                    "align": "start"
+                }]},
+                {"children": [{
+                    "id": "ryxhm69m4k",
+                    "align": "start"
+                }]},
+                {"children": [{
+                    "id": "acwajloyem",
+                    "align": "center"
+                }]}
+            ]
         }
     ],
     "key": "v7pavbg4hc",
+    "flexVerticalAlignment": "stretch",
     "labelTextSize": "0.875rem",
-    "rightColumn": 63,
-    "dynamicHeight": "FIXED",
+    "rightColumn": 64,
+    "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "lkz8ym27kj",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "defaultTab": "Setup",
@@ -102,12 +145,15 @@
             "isVisible": true
         }
     },
+    "minWidth": 450,
     "isVisible": true,
     "version": 3,
     "parentId": "opkoakhyor",
     "renderMode": "CANVAS",
     "isLoading": false,
+    "responsiveBehavior": "fill",
     "borderRadius": "0px",
     "maxDynamicHeight": 9000,
+    "alignment": "center",
     "minDynamicHeight": 4
 }

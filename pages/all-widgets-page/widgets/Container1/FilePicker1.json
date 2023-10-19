@@ -6,8 +6,8 @@
     "displayName": "FilePicker",
     "iconSVG": "/static/media/icon.715769b31db833b32f40d9c90ec02de3.svg",
     "searchTags": ["upload"],
-    "topRow": 39,
-    "bottomRow": 43,
+    "topRow": 78.2,
+    "bottomRow": 82.2,
     "parentRowSpace": 10,
     "type": "FILE_PICKER_WIDGET_V2",
     "allowedFileTypes": [],
@@ -15,16 +15,17 @@
     "mobileRightColumn": 49,
     "animateLoading": true,
     "parentColumnSpace": 10.693359375,
-    "leftColumn": 36,
+    "leftColumn": 48,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
     ],
     "isDisabled": false,
     "key": "8ym2sr2249",
+    "flexVerticalAlignment": "end",
     "isRequired": false,
     "isDeprecated": false,
-    "rightColumn": 52,
+    "rightColumn": 64,
     "isDefaultClickDisabled": true,
     "widgetId": "zsqqcwyofd",
     "minWidth": 120,
@@ -46,5 +47,6 @@
     "mobileLeftColumn": 33,
     "originalBottomRow": 43,
     "files": [],
+    "alignment": "center",
     "maxNumFiles": 1
 }

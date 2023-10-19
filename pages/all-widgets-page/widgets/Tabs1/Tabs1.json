@@ -6,8 +6,8 @@
     "isCanvas": true,
     "displayName": "Tabs",
     "iconSVG": "/static/media/icon.9e3d67c0af9c0bd092dc56240314e18a.svg",
-    "topRow": 215,
-    "bottomRow": 263,
+    "topRow": 275.59999999999997,
+    "bottomRow": 321.59999999999997,
     "parentRowSpace": 10,
     "type": "TABS_WIDGET",
     "hideCard": false,
@@ -15,7 +15,7 @@
     "mobileRightColumn": 42,
     "animateLoading": true,
     "parentColumnSpace": 12.578125,
-    "leftColumn": 18,
+    "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"},
@@ -28,21 +28,23 @@
             "mobileBottomRow": 150,
             "widgetName": "Canvas7",
             "displayName": "Canvas",
-            "bottomRow": 440,
+            "bottomRow": 420,
             "topRow": 0,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
             "canExtend": true,
             "hideCard": true,
             "shouldScrollContents": false,
-            "minHeight": 150,
+            "minHeight": 420,
             "mobileRightColumn": 301.875,
+            "useAutoLayout": true,
             "parentColumnSpace": 1,
             "leftColumn": 0,
             "dynamicBindingPathList": [
                 {"key": "borderRadius"},
                 {"key": "boxShadow"}
             ],
+            "positioning": "vertical",
             "isDisabled": false,
             "key": "765cs0l8g4",
             "isDeprecated": false,
@@ -63,7 +65,16 @@
             "mobileLeftColumn": 0,
             "maxDynamicHeight": 9000,
             "minDynamicHeight": 4,
-            "flexLayers": []
+            "flexLayers": [{"children": [
+                {
+                    "id": "6bsb6mn3ob",
+                    "align": "end"
+                },
+                {
+                    "id": "x2d52mrjie",
+                    "align": "end"
+                }
+            ]}]
         },
         {
             "tabId": "tab2",
@@ -71,7 +82,7 @@
             "mobileBottomRow": 150,
             "widgetName": "Canvas8",
             "displayName": "Canvas",
-            "bottomRow": 440,
+            "bottomRow": 260,
             "topRow": 0,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
@@ -80,12 +91,14 @@
             "shouldScrollContents": false,
             "minHeight": 150,
             "mobileRightColumn": 301.875,
+            "useAutoLayout": true,
             "parentColumnSpace": 1,
             "leftColumn": 0,
             "dynamicBindingPathList": [
                 {"key": "borderRadius"},
                 {"key": "boxShadow"}
             ],
+            "positioning": "vertical",
             "isDisabled": false,
             "key": "765cs0l8g4",
             "isDeprecated": false,
@@ -114,7 +127,7 @@
     "key": "nkcq3rfe7u",
     "backgroundColor": "#FFFFFF",
     "isDeprecated": false,
-    "rightColumn": 42,
+    "rightColumn": 32,
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "dqm2qswhva",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -152,5 +165,6 @@
     "mobileLeftColumn": 18,
     "maxDynamicHeight": 9000,
     "originalBottomRow": 232,
+    "alignment": "end",
     "minDynamicHeight": 15
 }
